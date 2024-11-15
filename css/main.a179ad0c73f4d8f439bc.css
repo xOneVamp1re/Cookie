@@ -1,0 +1,202 @@
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss ***!
+  \**********************************************************************************************************************************************************/
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+@font-face {
+  font-family: "Steppe Book", sans-serif;
+  src: url(../assets/fonts/Steppe-Book.8d5a37823677d46ee02e.ttf) format(ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Steppe Book", sans-serif;
+  src: url(../assets/fonts/Steppe-ExtraBold.641223a49d5711831be1.ttf) format(ttf);
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Steppe Book", sans-serif;
+  background-color: #5243f4;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 161px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  flex-shrink: 0;
+}
+.header__nav {
+  margin-left: 250px;
+}
+.header__nav-items {
+  display: flex;
+  gap: 120px;
+}
+.header__nav-link {
+  color: #fff;
+  font-style: 16px;
+  line-height: 130%;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.header__nav-link:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.main-content__info {
+  max-width: 811px;
+}
+.main-content__info-title {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.main-content__info-text {
+  max-width: 697px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+.main-content__img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  color: #5243f4;
+  border-radius: 60px;
+  padding: 18px 47px;
+  font-size: 18px;
+  transition: all 2s ease-in-out;
+}
+.send-button:hover {
+  background-color: #eeeeee;
+}
