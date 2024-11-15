@@ -1,0 +1,7 @@
+@use './vars.scss' as *;
+
+body {
+  font-family: $font-family--base;
+  background-color: $main-bg--color;
+  color: $main-text--color;
+}

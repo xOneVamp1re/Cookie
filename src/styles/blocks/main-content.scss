@@ -1,0 +1,25 @@
+.main-content {
+  &__info {
+    max-width: 811px;
+    &-title {
+      font-size: 90px;
+      font-weight: 800;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &-text {
+      max-width: 697px;
+      font-size: 18px;
+      line-height: 130%;
+      margin-bottom: 40px;
+    }
+  }
+  &__img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

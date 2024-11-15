@@ -1,0 +1,17 @@
+@use '../../base/vars.scss' as *;
+
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: $button-bg--color;
+  color: $button-text--color;
+  border-radius: 60px;
+  padding: 18px 47px;
+  font-size: 18px;
+  transition: all 02s ease-in-out;
+  &:hover {
+    background-color: $button-bg-hover--color;
+  }
+}
